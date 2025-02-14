@@ -1,0 +1,94 @@
+{
+    "certifications": [
+        {
+            "title": "IBM Full Stack Javascript Developer Professional Certificate",
+            "image": "https://i.imgur.com/5ztNxFI.jpeg",
+            "bodyText": "IBM - 2025", 
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/27ZT658Z2UU3"
+        },
+        {
+            "title": "Building Web Applications in PHP",
+            "image": "https://i.imgur.com/tgbegqp.jpeg",
+            "bodyText": "University of Michigan",
+        
+            "credentialUrl": ""
+        },
+        {
+            "title": "React Basic Meta",
+            "image": "https://i.imgur.com/rjwP4Lz.jpeg",
+            "bodyText": "Meta",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Introduction to SQL",
+            "image": "https://i.imgur.com/H7wnVo0.jpeg",
+            "bodyText": "University of Michigan",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Developing Front-End Apps with React",
+            "image": "https://i.imgur.com/Zp1fGIx.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Developing Back-End Apps with Node.js and Express",
+            "image": "https://i.imgur.com/9p62LsL.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "JavaScript Programming Essentials",
+            "image": "https://i.imgur.com/SMl3J7a.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+            "image": "https://i.imgur.com/6HBJiNt.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Introduction to Mobile Apps Development",
+            "image": "https://i.imgur.com/bV8SnRW.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Introduction to HTML, CSS, and JavaScript",
+            "image": "https://i.imgur.com/pc5VMpJ.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Getting Started with Git and GitHub",
+            "image": "https://i.imgur.com/QyHLrX2.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Application Development using Microservices and Serverless",
+            "image": "https://i.imgur.com/04yQpD4.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Get Started with Cloud Native, DevOps, Agile, and NoSQL",
+            "image": "https://i.imgur.com/QFykqpl.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        },
+        {
+            "title": "Node.js & MongoDB: Developing Back-end Database Applications",
+            "image": "https://i.imgur.com/OKvMgmI.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": ""
+        }
+    ],
+    "Certifications from courses": [
+        
+
+    ]
+}

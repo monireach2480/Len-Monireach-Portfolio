@@ -1,0 +1,20 @@
+{
+    "profilePic": {
+      "source": "https://i.imgur.com/T6KneNK.png",
+      "width": 200,
+      "height": 200,
+      "border-radius": 50,
+      "object-fit": "cover",
+      "margin-bottom": 20
+    },
+    "name": "Len Monireach",
+    "roles": [
+      "a Front-end Developer",
+      "a Back-end Developer",
+      "a Software Developer",
+      "an Aspiring Data Scientist"
+    ],
+    "paragraph": [
+      "I am pursuing a bachelor of science in Information and Communications Technology at American University of Phnom Penh. I am passionate about web development, with hands-on experience in both front-end and back-end technologies. I am eager to apply my skills in a professional environment and continuously grow as a developer."
+    ]
+  }

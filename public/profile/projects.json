@@ -1,0 +1,69 @@
+{
+    "projects": [
+      {
+        "image": "https://i.imgur.com/L2zcIBG.png",
+        "title": "Full-Stack Chat Application",
+        "bodyText": "Build a Full-Stack Chat application that allow users to create accounts, log in, and chat with other users in real-time.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/full-stack-chatAPP-MERN"
+          }
+        ],
+        "tags": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "TailwindCSS", "Daisy UI", "JWT", "Zustand"]
+      },
+      {
+        "image": "https://i.imgur.com/V8PQCWZ.png",
+        "title": "Build a Simple Payroll Management System on My local Machine",
+        "bodyText": "Built a Payroll Management System using front-end technologies like HTML, CSS, and JavaScript. Addionally, I used a database (MySQL and PHP) to store and retrieve employee information. The system allows users to add, edit, and delete employee records, as well as generate payroll reports.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/Payroll-Management-system"
+          }
+        ],
+        "tags": ["HTML", "CSS", "JavaScript", "PHP", "Mysql"]
+      },
+      {
+        "image": "https://i.imgur.com/9zOe8le.png",
+        "title": "Personal Financial Management System",
+        "bodyText": "This is a simple program that helps users manage their personal finances. It uses Python's Tkinter for the user interface, SQLite for storing data, and pandas for handling reports.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/Final-Project-CSA"
+          }
+        ],
+        "tags": ["Python", "Tkinter", "SQLite", "pandas"]
+      },
+      {
+        "image": "https://i.imgur.com/LlofbGg.png",
+        "title": "Paradise Nursery shopping application",
+        "bodyText": "The application interface will allow you to browse a variety of houseplants and add them to a shopping cart. The shopping cart feature lets you see all your items and their total cost.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://monireach2480.github.io/Plant-shoping/"
+          }
+        ],
+        "tags": ["React.js"]
+      },
+      {
+        "image": "https://i.imgur.com/vuJ3XwD.png",
+        "title": "Khmer New Year In Cambodia",
+        "bodyText": "Develop a simple Khmer New Year website using HTML, CSS, JavaScript, Bootstrap, and Jquery",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/Khmer-New-Year-Web"
+          }
+        ],
+        "tags": ["HTML", "CSS", "JavaScript", "Bootstrap", "Jquery"]
+      }
+      
+
+      
+      
+    ]
+  }
+  

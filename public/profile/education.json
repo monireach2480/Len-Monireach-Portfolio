@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "dateText": "January 2024 to Present",
+      "cardtitle": "Bachelor of Science in Information and Communications Technology",
+      "cardsubtitle": "American University of Phnom Penh",
+      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+    },
+    {
+      "dateText": "Feb 2024 to December 2024",
+      "cardtitle": "Foundation year of Bachelor of English",
+      "cardsubtitle": "Institute of Foreign Language, Royal University of Phnom Penh",
+      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+    }
+    
+
+  ]
+}
