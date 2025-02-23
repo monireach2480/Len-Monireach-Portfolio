@@ -3,7 +3,7 @@
       {
         "image": "https://i.imgur.com/L2zcIBG.png",
         "title": "Full-Stack Chat Application",
-        "bodyText": "Build a Full-Stack Chat application that allow users to create accounts, log in, and chat with other users in real-time.",
+        "bodyText": "Developed a real-time chat application using the MERN stack (MongoDB, Express, React, Node.js) with Socket.io for instant messaging. Implemented JWT-based authentication and authorization, online user status tracking, and global state management with Zustand. Designed with TailwindCSS and Daisy UI for a modern, responsive interface. Ensured robust error handling on both the client and server for a smooth user experience.",
         "links": [
           {
             "text": "GitHub",
@@ -13,8 +13,20 @@
         "tags": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "TailwindCSS", "Daisy UI", "JWT", "Zustand"]
       },
       {
+        "image": "https://i.imgur.com/nP30sse.png",
+        "title": "Full-Stack Notes Application",
+        "bodyText": "Built a feature-rich Notes App using the MERN stack (MongoDB, Express, React, Node.js). The app includes user authentication (Login & Sign Up), note creation and editing, the ability to pin important notes to the top, and a search function for easy access to saved notes. Designed for a seamless and intuitive user experience.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/full-stack-notes-application"
+          }
+        ],
+        "tags": ["MongoDB", "Express", "React.js", "Node.js", "TailwindCSS"]
+      },
+      {
         "image": "https://i.imgur.com/V8PQCWZ.png",
-        "title": "Build a Simple Payroll Management System on My local Machine",
+        "title": "Build a Simple Payroll Management System",
         "bodyText": "Built a Payroll Management System using front-end technologies like HTML, CSS, and JavaScript. Addionally, I used a database (MySQL and PHP) to store and retrieve employee information. The system allows users to add, edit, and delete employee records, as well as generate payroll reports.",
         "links": [
           {
