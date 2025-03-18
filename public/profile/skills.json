@@ -1,79 +1,82 @@
-
-  {
-    "skills": [
-      {
-        "title": "Programming Languages",
-        "tags": [
-          "C",
-          "C++",
-          "JavaScript",
-          "Python"
-        ]
-      },
-      {
-        "title": "Web Technologies",
-        "tags": [
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "JavaScript",
-          "Reach.js"
-        ]
-      },
-      {
-        "title": "Server Side / Back End",
-        "tags": [
-          "PHP",
-          "Node.js (MEAN, MERN)",
-          "Express.js"
-        ]
-      },
-      {
-        "title": "JavaScript Frameworks",
-        "tags": [
-          "React",
-          "Node.js",
-          "Bootstrap",
-          "Express.js",
-          "jQuery"
-          
-        ]
-      },
-      {
-        "title": "Software/Tools",
-        "tags": [
-          "GIT",
-          "GitHub",
-          "MS Office Suite",
-          "VS code",
-          "Adobe tools",
-          "Android Studio",
-          "Eclipse",
-          "IntelliJ",
-          "JetBrains",
-          "Visual Studio"
-        ]
-      },
-      {
-        "title": "Databases",
-        "tags": [
-          "Mongo DB",
-          "MySQL",
-          "SQLite"
-        ]
-      },
-      {
-        "title": "Soft Skills",
-        "tags": [
-          "Negotiation",
-          "Management",
-          "Team Leadership",
-          "Time Management",
-          "Problem Solving",
-          "Decision Making",
-          "Communication"
-        ]
-      }
-    ]
+{
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "tags": [
+        "C",
+        "C++",
+        "JavaScript",
+        "Python",
+        
+      ]
+    },
+    {
+      "title": "Front-End Development",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "TailwindCSS",
+        "JavaScript",
+        "React.js"
+      ]
+    },
+    {
+      "title": "Back-End Development",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "PHP",
+        "REST API",
+        "WebSockets"
+      ]
+    },
+    {
+      "title": "Databases",
+      "tags": [
+        "MongoDB",
+        "MySQL",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "tags": [
+        "Render",
+        "Vercel"
+      ]
+    },
+    {
+      "title": "Software/Tools",
+      "tags": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "MS Office Suite",
+        "VS Code",
+        "Figma",
+        "Adobe Tools",
+        "Android Studio",
+        "Eclipse",
+        "IntelliJ",
+        "JetBrains",
+        "Visual Studio",
+        "WebStorm"
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "tags": [
+        "Negotiation",
+        "Management",
+        "Team Leadership",
+        "Time Management",
+        "Problem Solving",
+        "Decision Making",
+        "Communication",
+        "Public Speaking",
+        "Research & Analysis"
+      ]
     }
-
+  ]
+}
