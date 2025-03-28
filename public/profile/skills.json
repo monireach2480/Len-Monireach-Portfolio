@@ -6,7 +6,13 @@
         "C",
         "C++",
         "JavaScript",
+<<<<<<< HEAD
         "Python"
+=======
+        
+        "Python",
+        
+>>>>>>> 178bdf0 (Add Project)
       ]
     },
     {
@@ -17,6 +23,10 @@
         "Bootstrap",
         "TailwindCSS",
         "JavaScript",
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 178bdf0 (Add Project)
         "React.js"
       ]
     },

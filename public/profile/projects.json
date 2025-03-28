@@ -1,6 +1,29 @@
 {
     "projects": [
       {
+        "image": "https://i.imgur.com/IGhP6Wj.png",
+        "title": "E-Commerce Web Application",
+        "bodyText": "Built a feature-rich e-commerce platform using the MERN stack (MongoDB, Express, React, Node.js) with Redis for caching and performance optimization. Implemented a secure authentication system with JWT (access & refresh tokens), user signup/login, and role-based access control. Integrated Stripe for seamless payments and developed an admin dashboard for product, category, and order management. Designed with TailwindCSS for a modern and responsive UI. Ensured data protection, security best practices, and real-time updates for a smooth shopping experience.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/monireach2480/e-commerce"
+          }
+        ],
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React.js",
+          "Node.js",
+          "Redis",
+          "Stripe",
+          "JWT",
+          "TailwindCSS",
+          "E-Commerce",
+          "Admin Dashboard"
+        ]
+      },      
+      {
         "image": "https://i.imgur.com/L2zcIBG.png",
         "title": "Full-Stack Chat Application",
         "bodyText": "Developed a real-time chat application using the MERN stack (MongoDB, Express, React, Node.js) with Socket.io for instant messaging. Implemented JWT-based authentication and authorization, online user status tracking, and global state management with Zustand. Designed with TailwindCSS and Daisy UI for a modern, responsive interface. Ensured robust error handling on both the client and server for a smooth user experience.",
