@@ -2,61 +2,26 @@
   "skills": [
     {
       "title": "Programming Languages",
-      "tags": [
-        "C",
-        "C++",
-        "JavaScript",
-<<<<<<< HEAD
-        "Python"
-=======
-        
-        "Python"
-        
->>>>>>> 178bdf0 (Add Project)
-      ]
+      "tags": ["C", "C++", "JavaScript", "Python"]
     },
     {
       "title": "Front-End Development",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "Bootstrap",
-        "TailwindCSS",
-        "JavaScript",
-<<<<<<< HEAD
-=======
-        
->>>>>>> 178bdf0 (Add Project)
-        "React.js"
-      ]
+      "tags": ["HTML5", "CSS3", "Bootstrap", "TailwindCSS", "JavaScript", "React"]
     },
     {
       "title": "Back-End Development",
-      "tags": [
-        "Node.js",
-        "Express.js",
-        "PHP",
-        "REST API",
-        "WebSockets"
-      ]
+      "tags": ["Node.js", "Express.js", "PHP", "REST API", "WebSockets (Socket.io)", "JWT", "OAuth"]
     },
     {
       "title": "Databases",
-      "tags": [
-        "MongoDB",
-        "MySQL",
-        "SQLite"
-      ]
+      "tags": ["MongoDB", "MySQL", "SQLite"]
     },
     {
-      "title": "Cloud & DevOps",
-      "tags": [
-        "Render",
-        "Vercel"
-      ]
+      "title": "Cloud & Hosting",
+      "tags": ["Render", "Vercel", "Docker", "GitHub Actions", "CI/CD"]
     },
     {
-      "title": "Software/Tools",
+      "title": "Software & Tools",
       "tags": [
         "Git",
         "GitHub",
@@ -64,11 +29,13 @@
         "MS Office Suite",
         "VS Code",
         "Figma",
-        "Adobe Tools",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe XD",
         "Android Studio",
         "Eclipse",
-        "IntelliJ",
-        "JetBrains",
+        "IntelliJ IDEA",
+        "JetBrains Suite",
         "Visual Studio",
         "WebStorm"
       ]
