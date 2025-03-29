@@ -24,6 +24,17 @@
     
 
 //   };
+export const darkTheme = {
+  background: 'linear-gradient(to right, #0a192f, #172a45, #2a4a6e, #0a192f)',
+  color: '#e0e0e0',
+  accentColor: '#64ffda',
+  lineColor: '#ccd6f6',
+  tagContainerBg: "linear-gradient(109.6deg, rgba(10, 25, 47, 0.9) 30.1%, rgba(23, 42, 69, 0.9) 100.2%)",
+  
+  bsPrimaryVariant: 'dark',
+  bsSecondaryVariant: 'light',
+  socialIconBgColor: '#64ffda',
+};
 export const lightTheme = {
   background: "linear-gradient(to right, #f0f4f8, #d9e2ec, #bcccdc)",
   color: '#1a1a1a',
@@ -36,14 +47,3 @@ export const lightTheme = {
   socialIconBgColor: '#1a1a1a',
 };
 
-export const darkTheme = {
-  background: 'linear-gradient(to right, #0a192f, #172a45, #2a4a6e, #0a192f)',
-  color: '#e0e0e0',
-  accentColor: '#64ffda',
-  lineColor: '#ccd6f6',
-  tagContainerBg: "linear-gradient(109.6deg, rgba(10, 25, 47, 0.9) 30.1%, rgba(23, 42, 69, 0.9) 100.2%)",
-  
-  bsPrimaryVariant: 'dark',
-  bsSecondaryVariant: 'light',
-  socialIconBgColor: '#64ffda',
-};

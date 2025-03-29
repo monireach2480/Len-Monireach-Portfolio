@@ -2,28 +2,28 @@ import React, { useState, useEffect, createContext, useContext } from "react";
 import { lightTheme, darkTheme } from "./theme";
 
 const ThemeContext = createContext({
-  theme: lightTheme,
+  theme: darkTheme,
   toggleTheme: () => {},
 });
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") === "dark" ? darkTheme : lightTheme
+    localStorage.getItem("theme") === "dark" ? lightTheme : darkTheme
   );
   console.log("Initial theme:", theme);
 
   const toggleTheme = () => {
-    const newTheme = theme === lightTheme ? darkTheme : lightTheme;
+    const newTheme = theme === darkTheme ? lightTheme : darkTheme;
     console.log("New theme:", newTheme);
     setTheme(newTheme);
     console.log("Updated theme:", theme);
-    localStorage.setItem("theme", newTheme === lightTheme ? "light" : "dark");
+    localStorage.setItem("theme", newTheme === darkTheme ? "light" : "dark");
   };
 
   useEffect(() => {
     const handleSystemThemeChange = () => {
       const prefersColorScheme = window.matchMedia("(prefers-color-scheme: dark)");
-      setTheme(prefersColorScheme.matches ? darkTheme : lightTheme);
+      setTheme(prefersColorScheme.matches ? lightTheme : darkTheme);
     };
 
     window.addEventListener("storage", handleSystemThemeChange);
