@@ -2,7 +2,7 @@
   "skills": [
     {
       "title": "Programming Languages",
-      "tags": ["C", "C++", "JavaScript", "Python"]
+      "tags": ["C", "C++", "JavaScript", "Python", "Java"]
     },
     {
       "title": "Front-End Development",
