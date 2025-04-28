@@ -22,19 +22,7 @@
         "E-Commerce",
         "Admin Dashboard"
       ]
-    },      
-    // {
-    //   "image": "https://i.imgur.com/L2zcIBG.png",
-    //   "title": "Full-Stack Chat Application",
-    //   "bodyText": "Developed a real-time chat application using the MERN stack (MongoDB, Express, React, Node.js) with Socket.io for instant messaging. Implemented JWT-based authentication and authorization, online user status tracking, and global state management with Zustand. Designed with TailwindCSS and Daisy UI for a modern, responsive interface. Ensured robust error handling on both the client and server for a smooth user experience.",
-    //   "links": [
-    //     {
-    //       "text": "GitHub",
-    //       "href": "https://github.com/monireach2480/full-stack-chatAPP-MERN"
-    //     }
-    //   ],
-    //   "tags": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "TailwindCSS", "Daisy UI", "JWT", "Zustand"]
-    // },
+    },    
     {
       "image": "https://i.imgur.com/nP30sse.png",
       "title": "Full-Stack Notes Application",
