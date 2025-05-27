@@ -33,8 +33,18 @@
           "href": "https://github.com/monireach2480/full-stack-chatAPP-MERN"
         }
       ],
-      "tags": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "TailwindCSS", "Daisy UI", "JWT", "Zustand"]
-    }, 
+      "tags": [
+        "MongoDB",
+        "Express",
+        "React.js",
+        "Node.js",
+        "Socket.io",
+        "TailwindCSS",
+        "Daisy UI",
+        "JWT",
+        "Zustand"
+      ]
+    },
     {
       "image": "https://i.imgur.com/nP30sse.png",
       "title": "Full-Stack Notes Application",
@@ -45,7 +55,31 @@
           "href": "https://github.com/monireach2480/full-stack-notes-application"
         }
       ],
-      "tags": ["MongoDB", "Express", "React.js", "Node.js", "TailwindCSS"]
+      "tags": [
+        "MongoDB",
+        "Express",
+        "React.js",
+        "Node.js",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "image": "https://i.imgur.com/60xEfGZ.png",
+      "title": "Todo Application",
+      "bodyText": "A simple todo application built with Spring Boot for learning purposes. Allows users to add, toggle, and delete tasks with MySQL database storage. A beginner-friendly project demonstrating core Spring Boot concepts.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/your-username/todo-application"
+        }
+      ],
+      "tags": [
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "Thymeleaf",
+        "Bootstrap"
+      ]
     },
     {
       "image": "https://i.imgur.com/V8PQCWZ.png",
@@ -57,7 +91,13 @@
           "href": "https://github.com/monireach2480/Payroll-Management-system"
         }
       ],
-      "tags": ["HTML", "CSS", "JavaScript", "PHP", "Mysql"]
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Mysql"
+      ]
     },
     {
       "image": "https://i.imgur.com/9zOe8le.png",
@@ -69,7 +109,12 @@
           "href": "https://github.com/monireach2480/Final-Project-CSA"
         }
       ],
-      "tags": ["Python", "Tkinter", "SQLite", "pandas"]
+      "tags": [
+        "Python",
+        "Tkinter",
+        "SQLite",
+        "pandas"
+      ]
     },
     {
       "image": "https://i.imgur.com/LlofbGg.png",
@@ -81,7 +126,9 @@
           "href": "https://monireach2480.github.io/Plant-shoping/"
         }
       ],
-      "tags": ["React.js"]
+      "tags": [
+        "React.js"
+      ]
     },
     {
       "image": "https://i.imgur.com/vuJ3XwD.png",
@@ -93,11 +140,13 @@
           "href": "https://github.com/monireach2480/Khmer-New-Year-Web"
         }
       ],
-      "tags": ["HTML", "CSS", "JavaScript", "Bootstrap", "Jquery"]
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Jquery"
+      ]
     }
-    
-
-    
-    
   ]
 }
