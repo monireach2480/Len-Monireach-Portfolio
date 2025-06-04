@@ -10,7 +10,7 @@
     },
     {
       "title": "Back-End Development",
-      "tags": ["Node.js", "Express.js", "PHP", "REST API", "WebSockets (Socket.io)", "JWT", "OAuth"]
+      "tags": ["Node.js", "Express.js", "Spring Boot", "REST API", "JWT"]
     },
     {
       "title": "Databases",
