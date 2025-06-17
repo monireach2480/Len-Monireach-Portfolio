@@ -8,6 +8,13 @@
             "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/27ZT658Z2UU3"
         },
         {
+            "title": "IBM Java Developer Professional Certificate",
+            "image": "https://i.imgur.com/iXQYyx8.jpeg",
+            "bodyText": "IBM - 2025", 
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/certificate/JC1CA26PBS7T"
+        },
+        {
             "title": "Advanced React",
             "image": "https://i.imgur.com/KwOcqQy.jpeg",
             "bodyText": "Meta",
