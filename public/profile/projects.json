@@ -6,6 +6,10 @@
       "bodyText": "Built a feature-rich e-commerce platform using the MERN stack (MongoDB, Express, React, Node.js) with Redis for caching and performance optimization. Implemented a secure authentication system with JWT (access & refresh tokens), user signup/login, and role-based access control. Integrated Stripe for seamless payments and developed an admin dashboard for product, category, and order management. Designed with TailwindCSS for a modern and responsive UI. Ensured data protection, security best practices, and real-time updates for a smooth shopping experience.",
       "links": [
         {
+          "text": "Live Demo",
+          "href": "https://e-commerce-02zs.onrender.com/"
+        },
+        {
           "text": "GitHub",
           "href": "https://github.com/monireach2480/e-commerce"
         }
@@ -28,6 +32,10 @@
       "title": "Full-Stack Chat Application",
       "bodyText": "Developed a real-time chat application using the MERN stack (MongoDB, Express, React, Node.js) with Socket.io for instant messaging. Implemented JWT-based authentication and authorization, online user status tracking, and global state management with Zustand. Designed with TailwindCSS and Daisy UI for a modern, responsive interface. Ensured robust error handling on both the client and server for a smooth user experience.",
       "links": [
+        {
+          "text": "Live Demo",
+          "href": "https://full-stack-chatapp-mern-97ho.onrender.com/login"
+        },
         {
           "text": "GitHub",
           "href": "https://github.com/monireach2480/full-stack-chatAPP-MERN"
