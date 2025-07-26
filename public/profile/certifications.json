@@ -15,12 +15,20 @@
             "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/certificate/JC1CA26PBS7T"
         },
         {
+            "title": "Amazan Full Stack Web Development",
+            "image": "https://i.imgur.com/S40HJMx.jpeg",
+            "bodyText": "Amazan",
+        
+            "credentialUrl": "https://coursera.org/verify/UMK4XFSVSQM7"
+        },
+        {
             "title": "Advanced React",
             "image": "https://i.imgur.com/KwOcqQy.jpeg",
             "bodyText": "Meta",
         
             "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/NQQLETXPWEPK"
         },
+
         {
             "title": "Building Web Applications in PHP",
             "image": "https://i.imgur.com/tgbegqp.jpeg",
