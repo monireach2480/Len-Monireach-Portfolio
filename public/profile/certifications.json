@@ -1,9 +1,16 @@
 {
     "certifications": [
         {
+            "title": "Amazon Junior Software Developer Professional Certificate",
+            "image": "https://i.imgur.com/wyCaAHI.jpeg",
+            "bodyText": "Amazon",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/4N0UOVMJT2M3"
+        },
+        {
             "title": "IBM Full Stack Javascript Developer Professional Certificate",
             "image": "https://i.imgur.com/5ztNxFI.jpeg",
-            "bodyText": "IBM - 2025", 
+            "bodyText": "IBM - 2024", 
         
             "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/27ZT658Z2UU3"
         },
@@ -14,10 +21,11 @@
         
             "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/certificate/JC1CA26PBS7T"
         },
+        
         {
-            "title": "Amazan Full Stack Web Development",
+            "title": "Amazon Full Stack Web Development",
             "image": "https://i.imgur.com/S40HJMx.jpeg",
-            "bodyText": "Amazan",
+            "bodyText": "Amazon",
         
             "credentialUrl": "https://coursera.org/verify/UMK4XFSVSQM7"
         },
