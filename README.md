@@ -79,7 +79,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Contact
 
-- **Email:** monireach2480@gmail.com
+- **Email:** lenmonireach123@gmail.com
 - **LinkedIn:** [Len Monireach](https://www.linkedin.com/in/monireach2480/)
 - **GitHub:** [monireach2480](https://github.com/monireach2480)
 
