@@ -1,6 +1,20 @@
 {
     "certifications": [
         {
+            "title": "Microsoft AI & ML Professional Certificate",
+            "image": "https://i.imgur.com/zB7bIED.jpeg",
+            "bodyText": "Microsoft",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/K0IXJ8LFAWY1"
+        },
+        {
+            "title": "IBM Full Stack Software Developer Professional Certificate",
+            "image": "https://imgur.com/a/ISYsm0B",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/BPZXDDCUBT6L"
+        },
+        {
             "title": "Amazon Junior Software Developer Professional Certificate",
             "image": "https://i.imgur.com/wyCaAHI.jpeg",
             "bodyText": "Amazon",
