@@ -17,7 +17,8 @@ const Contact = (props) => {
 
             <div className="contact-container">
              <Fade direction="left" duration={2000} cascade damping={1e3} triggerOnce >
-                <form className="contact-form" action="https://formsubmit.co/lenmonireach123@gmail.com" method="POST">
+                <form className="contact-form" action="https://formsubmit.co/el/yeseja" method="POST">
+>
                     <input type="text" name="name" placeholder="Name" required />
                     <input type="email" name="email" placeholder="Email" required />
                     <select name="enquiry" id="enquiry">
@@ -40,6 +41,10 @@ const Contact = (props) => {
                     <input type="text" name="_honey" style={{ display: "none" }} />
                     {/* Disable captcha (optional) */}
                     <input type="hidden" name="_captcha" value="false" />
+                    {/* Optional: table layout for email and redirect after submit */}
+                    <input type="hidden" name="_template" value="table" />
+                    <input type="hidden" name="_next" value="/" />
+>
 
                     <button
                         style={{
