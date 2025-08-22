@@ -17,9 +17,9 @@ const Contact = (props) => {
 
             <div className="contact-container">
              <Fade direction="left" duration={2000} cascade damping={1e3} triggerOnce >
-                <form className="contact-form" action="">
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" required />
+                <form className="contact-form" action="https://formsubmit.co/lenmonireach123@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
                     <select name="enquiry" id="enquiry">
                         <option>Freelance Project Proposal</option>
                         <option>General enquiry</option>
@@ -32,7 +32,15 @@ const Contact = (props) => {
                         cols="30"
                         rows="5"
                         placeholder="Message"
+                        required
                     ></textarea>
+                    {/* Email forwarding service options */}
+                    <input type="hidden" name="_subject" value="New portfolio contact submission" />
+                    {/* Honeypot field (hidden) to deter bots */}
+                    <input type="text" name="_honey" style={{ display: "none" }} />
+                    {/* Disable captcha (optional) */}
+                    <input type="hidden" name="_captcha" value="false" />
+
                     <button
                         style={{
                             cursor: "pointer",
@@ -44,7 +52,11 @@ const Contact = (props) => {
                             borderRadius: "5px",
                             fontSize: "small",
                             justifyItems: "center"
-                        }} type="submit">Send  Message</button>
+                        }}
+                        type="submit"
+                    >
+                        Send Message
+                    </button>
                 </form>
                 </Fade>
                 <div className="contactText">
@@ -81,7 +93,7 @@ const Contact = (props) => {
                      <Fade direction="up" duration={3000} delay={1000}cascade damping={1e3}>
                         <a
                             className="contact-link"
-                            href="lenmonireach123@gmail.com"
+                            href="mailto:lenmonireach123@gmail.com"
                             target="_blank"
                             rel="noreferrer"
                         >
