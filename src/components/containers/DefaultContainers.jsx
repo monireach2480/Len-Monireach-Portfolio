@@ -13,6 +13,60 @@ const DefaultContainers = (props) => {
   const [showMore, setShowMore] = useState(false);
   const { theme } = useTheme();
 
+  const iconSlugMap = {
+  'c': 'c',
+  'c++': 'cplusplus',
+  'javascript': 'javascript',
+  'python': 'python',
+  'java': 'oracle',       // ✅ Fix: Java slug is "oracle"
+  'css': 'css3',          // ✅ Add mapping for "css"
+  'css3': 'css3',
+  'html': 'html5',        // ✅ Add mapping for "html"
+  'html5': 'html5',
+  'bootstrap': 'bootstrap',
+  'tailwindcss': 'tailwindcss',
+  'react': 'react',
+  'next.js': 'nextdotjs',
+  'nextjs': 'nextdotjs',
+  'node.js': 'nodedotjs',
+  'nodejs': 'nodedotjs',
+  'express.js': 'express',
+  'express': 'express',
+  'spring boot': 'springboot',
+  'rest api': null,
+  'jwt': 'jsonwebtokens',
+  'mongodb': 'mongodb',
+  'mysql': 'mysql',
+  'sqlite': 'sqlite',
+  'render': 'render',
+  'vercel': 'vercel',
+  'docker(basic)': 'docker',
+  'docker': 'docker',
+  'github actions': 'githubactions',
+  'ci/cd': null,
+  'git': 'git',
+  'github': 'github',
+  'postman': 'postman',
+  'ms office suite': 'microsoftoffice',
+  'vs code': 'visualstudiocode',
+  'figma': 'figma',
+  'android studio': 'androidstudio',
+  'eclipse': 'eclipseide',
+  'intellij idea': 'intellijidea',
+  'jetbrains suite': 'jetbrains',
+  'visual studio': 'visualstudio',
+  'webstorm': 'webstorm',
+};
+
+
+  const getIconUrl = (tag) => {
+    if (!tag) return null;
+    const key = tag.trim().toLowerCase();
+    const slug = iconSlugMap[key];
+    if (!slug) return null;
+    return `https://cdn.simpleicons.org/${slug}`;
+  };
+
   const toggleShowMore = () => {
     setShowMore(!showMore);
   };
@@ -89,11 +143,17 @@ const DefaultContainers = (props) => {
         )}
         <div className="tags-container"
           style={{ background: theme.tagContainerBg }}>
-          {sectionType?.tags?.map((tag, index) => (
-            <span key={index} className="badge">
-              {tag}
-            </span>
-          ))}
+          {sectionType?.tags?.map((tag, index) => {
+            const iconUrl = getIconUrl(tag);
+            return (
+              <span key={index} className="badge">
+                {iconUrl && (
+                  <img className="tech-icon" src={iconUrl} alt={`${tag} logo`} loading="lazy" />
+                )}
+                {tag}
+              </span>
+            );
+          })}
         </div>
         </div>
         <div className="footerUrl"

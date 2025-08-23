@@ -91,11 +91,20 @@
   .badge {
     background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
     color: white;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     border-radius: 10px;
     padding: 5px 10px;
     margin: 5px;
     font-size: 0.9rem;
+  }
+
+  .tech-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .tags-container {

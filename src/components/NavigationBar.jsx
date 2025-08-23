@@ -70,11 +70,16 @@ const NavBar = () => {
     };
 
     return data ? (
-        <div className="navbar">
+        <div className="navbar navbar--glass">
             <div className="hamburger" onClick={toggleMenu}>
                 <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
                 <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
                 <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+            </div>
+            <div className="brand">
+                <a href="/home" onClick={(e) => scrollTo(e, '/home')}>
+                    {data?.name?.title || 'Portfolio'}
+                </a>
             </div>
             <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                 {data.sections.map((link, index) => (
