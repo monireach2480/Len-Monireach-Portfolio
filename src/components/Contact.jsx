@@ -15,12 +15,6 @@ const Contact = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus({ submitting: true, success: null, message: '' });
-<<<<<<< HEAD
-        try {
-            const form = e.target;
-            const formData = new FormData(form);
-            const resp = await fetch('https://formsubmit.co/el/yeseja', {
-=======
         
         try {
             const form = e.target;
@@ -28,30 +22,10 @@ const Contact = (props) => {
             
             // Use your actual email address - FormSubmit will send you a new verification email
             const resp = await fetch('https://formsubmit.co/lenmonireach123@gmail.com', {
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                 method: 'POST',
                 body: formData,
                 headers: { 'Accept': 'application/json' },
             });
-<<<<<<< HEAD
-            const contentType = resp.headers.get('content-type') || '';
-            let data;
-            if (contentType.includes('application/json')) {
-                data = await resp.json();
-            } else {
-                data = await resp.text();
-            }
-            if (!resp.ok) {
-                console.error('FormSubmit error:', data);
-                throw new Error(typeof data === 'string' ? data : (data?.message || 'Submission failed'));
-            }
-            console.log('FormSubmit success:', data);
-            setStatus({ submitting: false, success: true, message: 'Message sent successfully.' });
-            form.reset();
-        } catch (err) {
-            console.error('Contact form submission error:', err);
-            setStatus({ submitting: false, success: false, message: 'Failed to send. Please try again later.' });
-=======
             
             if (resp.ok) {
                 setStatus({ 
@@ -70,7 +44,6 @@ const Contact = (props) => {
                 success: false, 
                 message: 'Failed to send message. Please try again or email me directly.' 
             });
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
         }
     };
 
@@ -80,44 +53,6 @@ const Contact = (props) => {
 
             <div className="contact-container">
                 <Fade direction="left" duration={2000} cascade damping={1e3} triggerOnce>
-<<<<<<< HEAD
-                    <form className="contact-form" action="https://formsubmit.co/el/yeseja" method="POST" onSubmit={handleSubmit} autoComplete="off">
-                        <input type="text" name="name" placeholder="Name" required />
-                        <input type="email" name="email" placeholder="Email" required />
-                        <select name="enquiry" id="enquiry">
-                            <option>Freelance Project Proposal</option>
-                            <option>General enquiry</option>
-                            <option>Feedback</option>
-                            <option>Hire Me</option>
-                        </select>
-                        <textarea
-                            name="message"
-                            id="message"
-                            cols="30"
-                            rows="5"
-                            placeholder="Message"
-                            required
-                        ></textarea>
-                        {/* Email forwarding service options */}
-                        <input type="hidden" name="_subject" value="New portfolio contact submission" />
-                        {/* Optional: table layout for email */}
-                        <input type="hidden" name="_template" value="table" />
-                        {/* Optional: disable captcha */}
-                        <input type="hidden" name="_captcha" value="false" />
-                        {/* Note: _honey removed temporarily to avoid false positives from autofill */}
-
-                        <button
-                            style={{
-                                cursor: "pointer",
-                                backgroundColor: "black", color: "white",
-                                padding: "10px 20px",
-                                fontWeight: "bold",
-                                margin: "0px",
-                                border: "none",
-                                borderRadius: "5px",
-                                fontSize: "small",
-                                justifyItems: "center"
-=======
                     <form 
                         className="contact-form" 
                         onSubmit={handleSubmit} 
@@ -175,17 +110,10 @@ const Contact = (props) => {
                                 fontSize: "16px",
                                 width: "100%",
                                 transition: "all 0.3s ease"
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                             }}
                             type="submit"
                             disabled={status.submitting}
                         >
-<<<<<<< HEAD
-                            {status.submitting ? 'Sending...' : 'Send Message'}
-                        </button>
-                        {status.message && (
-                            <p className={status.success ? 'success' : 'error'}>{status.message}</p>
-=======
                             {status.submitting ? 'Sending Message...' : 'Send Message'}
                         </button>
                         
@@ -203,7 +131,6 @@ const Contact = (props) => {
                             >
                                 {status.message}
                             </div>
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                         )}
                     </form>
                 </Fade>
@@ -212,30 +139,17 @@ const Contact = (props) => {
                     <Fade direction="right" duration={2000} cascade damping={1e3} triggerOnce>
                         <div>
                             <p className="contact-text">
-<<<<<<< HEAD
-                                Got a project in mind or just want to connect? Feel free to reach out! Whether it's a collaboration, a question, or just a friendly hello, I'm always open to new opportunities. Fill out the form or email directly(avoiding technical errors), and I'll get back to you as soon as possible!
-                            </p>
-                        </div>
-                    </Fade>
-=======
                                 Got a project in mind or just want to connect? Feel free to reach out! Whether it's a collaboration, a question, or just a friendly hello, I'm always open to new opportunities. Fill out the form or contact me directly through the links below, and I'll get back to you as soon as possible!
                             </p>
                         </div>
                     </Fade>
                     
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                     <div className="contact-links">
                         <Fade direction="up" duration={3000} cascade damping={1e3}>
                             <a
                                 className="contact-link"
                                 href="https://github.com/monireach2480"
                                 target="_blank"
-<<<<<<< HEAD
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon icon={faGithub}
-                                    style={{ color: theme.socialIconBgColor }} />
-=======
                                 rel="noopener noreferrer"
                                 title="GitHub Profile"
                             >
@@ -243,7 +157,6 @@ const Contact = (props) => {
                                     icon={faGithub}
                                     style={{ color: theme.socialIconBgColor }} 
                                 />
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                             </a>
                         </Fade>
                         <Fade direction="up" duration={3000} delay={500} cascade damping={1e3}>
@@ -251,12 +164,6 @@ const Contact = (props) => {
                                 className="contact-link"
                                 href="https://www.linkedin.com/in/len-monireach/"
                                 target="_blank"
-<<<<<<< HEAD
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon icon={faLinkedin}
-                                    style={{ color: theme.socialIconBgColor }} />
-=======
                                 rel="noopener noreferrer"
                                 title="LinkedIn Profile"
                             >
@@ -264,27 +171,18 @@ const Contact = (props) => {
                                     icon={faLinkedin}
                                     style={{ color: theme.socialIconBgColor }} 
                                 />
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                             </a>
                         </Fade>
                         <Fade direction="up" duration={3000} delay={1000} cascade damping={1e3}>
                             <a
                                 className="contact-link"
                                 href="mailto:lenmonireach123@gmail.com"
-<<<<<<< HEAD
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon icon={faEnvelope}
-                                    style={{ color: theme.socialIconBgColor }} />
-=======
                                 title="Send Direct Email"
                             >
                                 <FontAwesomeIcon 
                                     icon={faEnvelope}
                                     style={{ color: theme.socialIconBgColor }} 
                                 />
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
                             </a>
                         </Fade>
                     </div>
@@ -294,8 +192,4 @@ const Contact = (props) => {
     );
 };
 
-<<<<<<< HEAD
 export default Contact;
-=======
-export default Contact;
->>>>>>> f5163596ceebf02709c7a9a44378bfee1970561f
