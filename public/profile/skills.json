@@ -1,24 +1,25 @@
 {
   "skills": [
+
     {
       "title": "Programming Languages",
-      "tags": ["C", "C++", "JavaScript", "Python", "Java"]
+      "tags": ["C", "C++", "JavaScript", "Python", "Java", "TypeScript"]
     },
     {
-      "title": "Front-End Development",
-      "tags": ["HTML5", "CSS3", "Bootstrap", "TailwindCSS", "JavaScript", "React", "Next.js"]
+      "title": "Full-Stack Development",
+      "tags": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Flask"]
     },
     {
-      "title": "Back-End Development",
-      "tags": ["Node.js", "Express.js", "Spring Boot", "REST API", "JWT"]
+      "title": "Mobile Application Development",
+      "tags": ["React Native", "Expo"]
     },
     {
       "title": "Databases",
-      "tags": ["MongoDB", "MySQL", "SQLite"]
+      "tags": ["PostgreSQL", "MongoDB", "MySQL", "SQLite"]
     },
     {
       "title": "Cloud & Hosting",
-      "tags": ["Render", "Vercel", "Docker(Basic)", "GitHub Actions", "CI/CD"]
+      "tags": ["AWS","Render", "Vercel", "Docker", "GitHub Actions", "CI/CD"]
     },
     {
       "title": "Software & Tools",
