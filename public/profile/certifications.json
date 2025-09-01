@@ -1,6 +1,13 @@
 {
     "certifications": [
         {
+            "title": "IBM Data Science Professional Certificate",
+            "image": "https://i.imgur.com/kvFFBap.jpeg",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/Z711577XLDT4"
+        },
+        {
             "title": "Microsoft AI & ML Engineering Professional Certificate",
             "image": "https://i.imgur.com/zB7bIED.jpeg",
             "bodyText": "Microsoft",
