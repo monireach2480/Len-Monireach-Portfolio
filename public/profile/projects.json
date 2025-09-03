@@ -79,6 +79,27 @@
         "Shadcn UI"
       ]
     },
+        {
+      "image": "https://i.imgur.com/o47EBf9.png",
+      "title": "Fake News Detection System",
+      "bodyText": "Developed a machine learning-powered web application that classifies news articles as reliable or unreliable using a Decision Tree classifier with TF-IDF vectorization. The system preprocesses text using NLTK for stemming and stop-word removal, achieving 88.9% accuracy on a dataset of 20,800 news articles. Built with Streamlit for an intuitive user interface that provides real-time classification results.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/monireach2480/Fake-News-Detection"
+        }
+      ],
+      "tags": [
+        "Python",
+        "Streamlit",
+        "Scikit-learn",
+        "NLTK",
+        "Machine Learning",
+        "NLP",
+        "TF-IDF",
+        "Decision Tree"
+      ]
+    },
     {
       "image": "https://i.imgur.com/nP30sse.png",
       "title": "Full-Stack Notes Application",
