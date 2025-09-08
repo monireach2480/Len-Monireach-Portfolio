@@ -42,13 +42,100 @@
         
             "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/certificate/JC1CA26PBS7T"
         },
+        {
+            "title": "Advanced AI and Machine Learning Techniques and Capstone",
+            "image": "https://i.imgur.com/0NdiYtt.jpeg",
+            "bodyText": "Microsoft",
         
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/ZLZ3VTJ1O4I9"
+        },
+        {
+            "title": "AI and Machine Learning Algorithms and Techniques",
+            "image": "https://i.imgur.com/86nemN2.jpeg",
+            "bodyText": "Microsoft",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PAPYO8P4HRPC"
+        },
+        {
+            "title": "Machine Learning with Python",
+            "image": "https://i.imgur.com/CrVzh9e.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/L6THM29TKPJH"
+        },
+        {
+            "title": "Foundations of AI and Machine Learning",
+            "image": "https://i.imgur.com/4UESLIY.jpeg",
+            "bodyText": "Microsoft",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/JLH2W0UMDVFZ"
+        },
+        {
+            "title": "Python for Data Science, AI & Development",
+            "image": "https://i.imgur.com/9O78g7k.jpeg",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/LBZH58N4W10L"
+        },
+        {
+            "title": "Microsoft Azure for AI and Machine Learning",
+            "image": "https://i.imgur.com/U0FcwVq.jpeg",
+            "bodyText": "Microsoft",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XZ2RXRXENNL8"
+        },
+        {
+            "title": "Applied Data Science Capstone",
+            "image": "https://i.imgur.com/DbNMA6K.jpeg",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/43Z6UTT9XEOB"
+        },
+        {
+            "title": "Data Visualization with Python",
+            "image": "https://i.imgur.com/DkZWbRR.jpeg",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/L5F108N0B2D6"
+        },
+        {
+            "title": "Data Analysis with Python",
+            "image": "https://i.imgur.com/qIdm4mj.jpeg",
+            "bodyText": "IBM",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XJLJZ5DK5RYU"
+        },
+        {
+            "title": "Process Data from Dirty to Clean",
+            "image": "https://i.imgur.com/5HwdFso.jpeg",
+            "bodyText": "Google",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/UDZ6UOLZRLI0"
+        },
+        {
+            "title": "Prepare Data for Exploration",
+            "image": "https://i.imgur.com/yxiHpjt.jpeg",
+            "bodyText": "Google",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/QCVMWEBNGGTY"
+        },
+        {
+            "title": "Foundations: Data, Data, Everywhere",
+            "image": "https://i.imgur.com/73SoKUU.jpeg",
+            "bodyText": "Google",
+        
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/KQ52O8URNNLB"
+        },
         {
             "title": "Amazon Full Stack Web Development",
             "image": "https://i.imgur.com/S40HJMx.jpeg",
             "bodyText": "Amazon",
         
             "credentialUrl": "https://coursera.org/verify/UMK4XFSVSQM7"
+        },
+
+        {
+            "title": "Developing AI Applications with Python and Flask",
+            "image": "https://i.imgur.com/sDSGLkZ.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/EWG003VZFMAH"
         },
         {
             "title": "Advanced React",
@@ -96,6 +183,18 @@
             "credentialUrl": ""
         },
         {
+            "title": "Spring Framework for Java Development",
+            "image": "https://i.imgur.com/jWlb3WJ.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/4DJYCRWBL2DM"
+        },
+        {
+            "title": "Cloud Native, Microservices, Containers, DevOps and Agile",
+            "image": "https://i.imgur.com/f0xCUtm.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/H5SCV7BVKKNY"
+        },
+        {
             "title": "JavaScript Programming Essentials",
             "image": "https://i.imgur.com/SMl3J7a.jpeg",
             "bodyText": "IBM",
@@ -107,6 +206,64 @@
             "bodyText": "IBM",
             "credentialUrl": ""
         },
+        {
+            "title": "Building Intelligent Troubleshooting Agents",
+            "image": "https://i.imgur.com/ovEj7C2.jpeg",
+            "bodyText": "Microsoft",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/MDOSFWRKXO0N"
+        },
+        {
+            "title": "Foundations of Spring Boot & MVC Architecture",
+            "image": "https://i.imgur.com/IA6mGFg.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/P0DNIF9WQBFI"
+        },
+        {
+            "title": "Django Application Development with SQL and Databases",
+            "image": "https://i.imgur.com/RE4hX3N.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/924XQJOAVZH5"
+        },
+
+        
+        {
+            "title": "Programming With Java",
+            "image": "https://i.imgur.com/FoeNnjA.jpeg",
+            "bodyText": "Amazon",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/LNA409W9YLRB"
+        },
+        {
+            "title": "Java Development Capstone Project",
+            "image": "https://i.imgur.com/KlQk82v.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/3LZC2HPH5MUL"
+        },
+        {
+            "title": "Database Management with Java and SQL",
+            "image": "https://i.imgur.com/Ln8Ol0m.jpeg",
+            "bodyText": "Amazon",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/4TQ5WXM3TY7I"
+        },
+        {
+            "title": "Data Structures and Algorithms",
+            "image": "https://i.imgur.com/G7UuFPp.jpeg",
+            "bodyText": "Amazon",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/108MGO3VOAWM"
+        },
+        {
+            "title": "Java Development With Database",
+            "image": "https://i.imgur.com/zS8Hw2o.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/9DAG8KDNO75H"
+        },
+        {
+            "title": "Object Oriented Programming in Java",
+            "image": "http://i.imgur.com/ilvEzp2.jpeg",
+            "bodyText": "IBM",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/OIR3KLJ9ERLW"
+        },
+
+
         {
             "title": "Introduction to Mobile Apps Development",
             "image": "https://i.imgur.com/bV8SnRW.jpeg",
