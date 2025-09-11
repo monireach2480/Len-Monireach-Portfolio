@@ -54,6 +54,30 @@
       ]
     },
     {
+      "image": "https://i.imgur.com/2NUJfVs.png",
+      "title": "Medical Chatbot — Llama 2 + RAG with Pinecone",
+      "bodyText": "Developed a Flask-based medical question-answering chatbot that leverages Retrieval-Augmented Generation (RAG) with Pinecone for semantic search over PDF documents. Embedded text using Sentence Transformers (all-MiniLM-L6-v2) and integrated a local Llama 2 model (quantized GGML via ctransformers) to generate grounded responses without relying on external LLM APIs. Built a simple yet responsive chat interface with Bootstrap and jQuery. Configurable pipeline with support for document ingestion, indexing, and retrieval. Disclaimer: For research and educational purposes only — not a substitute for medical advice.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/monireach2480/Medical-Chatbot-Llama"
+        }
+      ],
+      "tags": [
+        "Flask",
+        "Python",
+        "Llama 2",
+        "LangChain",
+        "RAG",
+        "Pinecone",
+        "Sentence Transformers",
+        "Bootstrap",
+        "jQuery",
+        "Chatbot"
+      ]
+    },
+
+    {
       "image": "https://i.imgur.com/09uIAwD.png",
       "title": "Relaxa - Social Media Web App",
       "bodyText": "Relaxa is a modern, full-featured social media platform built with Next.js and TypeScript. It includes secure user authentication with Clerk, drag-and-drop file uploads using UploadThing, and a sleek UI crafted with Radix UI and Tailwind CSS. The app supports dark mode, is fully responsive for mobile devices, and uses Prisma ORM for seamless database management. Designed with scalability and performance in mind, Relaxa offers a smooth and intuitive user experience.",
