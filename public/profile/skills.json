@@ -1,17 +1,26 @@
 {
   "skills": [
-
     {
       "title": "Programming Languages",
       "tags": ["C", "C++", "JavaScript", "Python", "Java", "TypeScript"]
     },
     {
-      "title": "Full-Stack Development",
-      "tags": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Flask"]
+      "title": "Data Science",
+      "tags": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "Data Visualization",
+        "Machine Learning"
+      ]
     },
     {
-      "title": "Mobile Application Development",
-      "tags": ["React Native", "Expo"]
+      "title": "Software Development",
+      "tags": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Flask", "React Native", "Expo"]
     },
     {
       "title": "Databases",
@@ -19,7 +28,7 @@
     },
     {
       "title": "Cloud & Hosting",
-      "tags": ["AWS","Render", "Vercel", "Docker", "GitHub Actions", "CI/CD"]
+      "tags": ["AWS", "Render", "Vercel", "Docker", "GitHub Actions", "CI/CD"]
     },
     {
       "title": "Software & Tools",
